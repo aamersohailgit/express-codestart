@@ -3,15 +3,15 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "hi developers"
   });
 });
 
-app.post('/', function(req, res) {
+app.post('/', function (req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "hi developers"
   });
 });
 
